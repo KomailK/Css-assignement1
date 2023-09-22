@@ -1,2 +1,2 @@
-https://komailk.github.io/komailkassimaly.github.io
+https://komailk.github.io/Css-assignement1
 
