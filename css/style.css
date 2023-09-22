@@ -1,0 +1,220 @@
+
+/*Q#: All the elements have margin of 0 from the top, bottom, left, and right */
+
+*{
+    margin: 0;
+
+}
+
+/* Q2: Styling <body> element */
+
+body
+{
+    color:#6CA0DC;
+    background-image: url(../assets/images/dark-wood1.jpg);
+    font-family:Cambria, Cochin, Georgia, sans-serif;
+    margin: 0;
+}
+
+/* Q3: Styling the <div> element with class “container”*/
+
+.container
+{
+    width: 950px;
+    margin: 5px auto;
+    background-color:#FAD5A5;
+}
+
+/* Q4: Styling elements of the class “content” */
+
+.content
+{ 
+    line-height: 1.4em;
+    padding: 10px;
+
+}
+
+/* Q5: Styling header,nav and footer */
+
+header,nav,footer
+{
+
+    background-color:#FAD5A5;
+    color:#6495ED;
+
+}
+
+
+/* Q6: Styling the unordered list element <ul> inside <nav> element */
+nav ul
+{
+    margin: 0;
+    padding: 5px;
+}
+
+/* Q7: Styling the list items of the main navigation*/
+nav li
+{
+    display: inline;
+    margin: 0 40px 0 0;
+    text-transform: uppercase;
+}
+
+
+/* Q8: Adding pseudo classes effect to the anchor elements of the main navigation list */
+
+nav a:link
+{
+    color: #FF4433;
+
+}
+
+nav a:visited
+{
+
+     color: #FF4433;
+}
+
+nav a:hover
+{
+
+    color: #FFE5B4;
+}
+
+nav a:active
+{
+    color: #FF4433;
+    
+}
+
+/*Q9: Styling any anchor <a> element*/
+a
+{
+    color: #6495ED;
+    text-decoration: none;
+
+}
+
+
+/*Q10: Styling h1,h2 and h3*/
+h1,h2,h3
+{
+
+    margin: 10px;
+    text-transform: uppercase;
+    color: #6082B6;
+
+}
+
+/*Q11: Styling the class "img-centre"*/
+.img-centre
+{
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+
+}
+
+/*Q12: Styling audio and video elements*/
+audio,video
+{
+    display: block;
+    margin: 10px auto;
+}
+
+/*Q13: Styling table element*/
+table
+{
+    width: 800px;
+    margin: 10px auto;
+    border: solid;
+    
+}
+
+/*Q14: Styling <td> and <th> element*/
+td,th
+{
+    border: solid;
+    padding: 2px 5px;
+    background-color:#FFE5B4;
+
+}
+
+
+/*Q15: Styling <th> and the <td> inside <tfoot>*/
+th,tfoot td
+{
+
+    text-transform: uppercase;
+    color:#FFE5B4 ;
+    background-color: #A0522D;
+
+}
+
+
+
+/*Q16: Styling <dt> element*/
+dt
+{
+    font-weight: bold;
+
+}
+
+/*Q17: Styling <footer> element*/
+footer
+{
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+
+}
+
+/*Q18: Styling <iframe> element*/
+iframe
+{
+    display: block;
+    margin: 10px auto;
+}
+
+/*Q19: Styling <fieldset> element*/
+fieldset
+{
+    width: 500px;
+    margin: 20px auto;
+    border: solid #088F8F;
+    background-color: #FFE5B4;
+}
+
+/*Q20: Styling <legend> element*/
+legend
+{
+    font-style: italic;
+    color: #088F8F;
+    background-color: #AFE1AF;
+    margin: 0 10px;
+    padding: 0 5px;
+    border-radius: 10% / 50%;
+}
+
+
+
+/*Q21: Styling <input> element with type with value of "submi"*/
+input[type="submit"]
+{
+    border:solid #088F8F ;
+    padding: 5px;
+    background-color: #FF4433;
+    color:#FFE5B4;
+}
+
+
+/*Q22: Styling "submit" inpur for the hover state*/
+input[type="submit"]:hover
+{
+    color:#088F8F;
+    background-color: #AFE1AF;
+    cursor: grab;
+
+
+}
+
