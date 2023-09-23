@@ -16,7 +16,7 @@ body
     margin: 0;
 }
 
-/* Q3: Styling the <div> element with class “container”*/
+/* Q3: Styling the <div> element with class “container” */
 
 .container
 {
@@ -146,8 +146,8 @@ th,tfoot td
 {
 
     text-transform: uppercase;
-    color:#FFE5B4 ;
     background-color: #A0522D;
+    color:#FFE5B4 ;
 
 }
 
