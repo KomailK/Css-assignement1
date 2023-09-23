@@ -198,7 +198,7 @@ legend
 
 
 
-/*Q21: Styling <input> element with type with value of "submi"*/
+/*Q21: Styling <input> element with type with value of "submit"*/
 input[type="submit"]
 {
     border:solid #088F8F ;
